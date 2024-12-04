@@ -16,10 +16,14 @@ C'est parti !
 # Installation
 
 Si ce n'est déjà fait, commencez par **[téléchargez Ollama](https://ollama.ai/download)**
+![#1-IMAGE SITE OFFICIEL](https://github.com/user-attachments/assets/ab391279-c990-4358-a23f-a92207944ab0)
+
 
 Vous avez dans votre dossier téléchargement le fichier Ollama-darwin.zip
+![#2-TÉLÉCHARGER OLLAMA-DARWIN](https://github.com/user-attachments/assets/698a07bb-41c2-4a17-8125-843214624be6)
 
 Double cliquez dessus (pour décompresser l'application) et déplacez la dans votre dossier applications.
+![#3-APPLICATIONS OLLAMA DANS APPLICATIONS](https://github.com/user-attachments/assets/ec30652b-3c85-4a45-812a-cfdb7562a655)
 
 Lancez l'application Ollama,
 
@@ -33,6 +37,7 @@ Ollama se lance et si vous ne l'avez pas déplacé dans le dossier Applications,
 ![Attention](/img/move.png)
 
 Cliquez sur **Move to application**
+![#4-DEPLACEMENT DE LA DECOMPRESSION VERS APPLICATIONS](https://github.com/user-attachments/assets/cae14401-e208-440d-bf41-f9399099459c)
 
 Un autre dialogue en anglais vous souhaite la bienvenue et vous présente le logo Ollama.
 
@@ -41,6 +46,7 @@ Un autre dialogue en anglais vous souhaite la bienvenue et vous présente le log
 Cliquez sur Next.
 
 ## Ouvrir l'application terminal
+![#5-ICONE TERMINAL DANS APPLICATIONS](https://github.com/user-attachments/assets/ca98eede-ea9e-4de7-b91c-37612aa805fb)
 
 Pour lancer Ollama et pour charger un premier [LLM](/learn/lectures/glossaire#LLM), il faut lancer l'application Terminal qui se trouve dans le dossier Utilitaire de votre Mac.
 
@@ -49,6 +55,7 @@ Taper dans le terminal la commande:
 ```bash
 ollama run llama3
 ```
+![#6-EXECUTION DU PLAN LLAMA DANS TERMINAL](https://github.com/user-attachments/assets/ed8575f8-3d51-455e-84ef-f31778bf80f1)
 
 Le mot `run` permet d'executer le modèle `llama3`. Si le modèle n'est pas chargé, il va se charger (cela occupe un peu moins de 4 Giga sur le disque)
 
